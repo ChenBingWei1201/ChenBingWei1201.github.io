@@ -1,5 +1,17 @@
 export const competitions = [
   {
+    title: "FRC 2019 Hawaii Regional",
+    highlight: "Judges' Award",
+    time: "Mar. 2019",
+    link: [
+      { text: "website", url: "https://frc-events.firstinspires.org/2019/team/7497" },
+    ],
+    content: [
+      "",
+    ],
+    tags: ["Inventor", "AutoLaser", "3DP"]
+  },
+  {
     title: "MakeNTU 2024",
     highlight: "SiliconMotion 3rd place",
     time: "May 2024",
