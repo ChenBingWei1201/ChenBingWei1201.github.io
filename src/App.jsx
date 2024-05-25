@@ -13,8 +13,8 @@ import { skills } from "./data/skills";
 
 function App() {
   return (
-    <div className="h-full flex flex-col items-center justify-center mx-auto">
-
+    <div className="h-full flex flex-col items-center justify-center">
+      {/*<div className="px-40 mx-auto">*/}
       <PersonalInfo data={personalInfo} />
       {/*<SplitLine width="11/12" weight="300" />*/}
 
@@ -30,6 +30,7 @@ function App() {
       <Skills data={skills} />
       {/*<SplitLine width="11/12" weight="300" />*/}
 
+      {/*</div>*/}
       <Footer />
     </div>
   );

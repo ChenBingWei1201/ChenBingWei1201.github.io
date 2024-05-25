@@ -1,6 +1,7 @@
 import GithubURL from "../images/github.png";
 import FacebookURL from "../images/facebook.png";
 import LinkedInURL from "../images/linkedin.png";
+import HackMDURL from "../images/hackmd.png";
 
 export default function Footer() {
   return (
@@ -8,6 +9,9 @@ export default function Footer() {
       <div className="flex flex-row items-center justify-center">
         <a href="https://github.com/ChenBingWei1201" target="_blank">
           <img src={GithubURL} alt="github link" className="w-9 m-2" />
+        </a>
+        <a href="https://hackmd.io/@Bing-Wei-Chen" target="_blank">
+          <img src={HackMDURL} alt="hackmd link" className="w-9 m-2 rounded border-black border" />
         </a>
         <a href="https://www.linkedin.com/in/bing-wei-chen-80620a2a2/" target="_blank">
           <img src={LinkedInURL} alt="linkedin link" className="w-9 m-2" />

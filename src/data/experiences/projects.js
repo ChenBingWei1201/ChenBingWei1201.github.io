@@ -45,7 +45,7 @@ export const projects = [
       { text: "github", url: "https://github.com/NTUEE-Web-Programming-Final-Project/final-project" },
     ],
     content: [
-      "NTUEE 112-1 Web Programming Class Final Project"
+      "NTUEE 112-1 Web Programming Class Final Project."
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
   },
@@ -66,6 +66,7 @@ export const projects = [
     time: "Dec. 2022",
     link: [
       { text: "github", url: "https://github.com/Computer-Programming-Report/GeometryEscape" },
+      { text: "notes", url: "https://hackmd.io/@math-and-electrical-engineering" }
     ],
     content: [
       "NTUEE 110-2 Computer Programming Class Final Project. It is a 2D game developed by SDL library in C/C++."
