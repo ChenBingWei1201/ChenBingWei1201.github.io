@@ -14,7 +14,7 @@ export const projects = [
   },
   {
     title: "Robot Vacuum",
-    highlight: "TA award",
+    highlight: "TAs' award",
     time: "Apr 2023 - Jun 2023",
     link: [
       { text: "github", url: "https://github.com/CarCarGroup05/RobotVacuum" },

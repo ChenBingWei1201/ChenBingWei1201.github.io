@@ -16,11 +16,11 @@ export default function Experiences({ title: sectionTitle, data }) {
               <h2 className="font-sans text-lg">{title}</h2>
               {
                 highlight !== "" &&
-                <p className="text-left font-sans text-sm text-orange-800">
+                <p className="text-left font-sans text-sm text-orange-800 font-bold">
                   {highlight}
                 </p>
               }
-              <p className="text-left align-top font-sans text-sm font-semibold text-neutral-500 pr-2">
+              <p className="text-left align-top font-sans text-sm text-neutral-500 pr-2">
                 {time}
                 {
                   link.length > 0 &&
@@ -44,6 +44,7 @@ export default function Experiences({ title: sectionTitle, data }) {
                 }
               </p>
             </div>
+            {}
             <div className="w-[80%] flex flex-col justify-between">
               <p className="text-left font-sans text-sm text-neutral-800">
                 {content.map((row, idx) => (
