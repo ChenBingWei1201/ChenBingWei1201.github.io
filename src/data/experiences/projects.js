@@ -24,7 +24,7 @@ export const projects = [
     content: [
       "Due to this aging society, we intended to develop a robot vacuum to care for senior citizens. It has the ability not only to clean the floor but also to detect whether a senior citizen have fallen using a Pi camera and a google ML model(MediaPipe).",
     ],
-    tags: ["Raspberry Pi4", "Pi Camera", "Arduino", "MediaPipe", "Line Notify", "C++", "Python"]
+    tags: ["Raspberry Pi4", "Pi Camera", "Arduino", "MediaPipe", "Line Notify", "C++", "Python", "App Inventor"]
   },
   {
     title: "NTUEE Course Map",
@@ -47,7 +47,7 @@ export const projects = [
     content: [
       "NTUEE 112-1 Web Programming Class Final Project"
     ],
-    tags: ["React Native", "Android", "Full-stack"]
+    tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
   },
   {
     title: "VMKS",
@@ -68,7 +68,7 @@ export const projects = [
       { text: "github", url: "https://github.com/Computer-Programming-Report/GeometryEscape" },
     ],
     content: [
-      "It is a game made with SDL."
+      "NTUEE 110-2 Computer Programming Class Final Project. It is a 2D game developed by SDL library in C/C++."
     ],
     tags: ["C++", "C"]
   },
