@@ -64,7 +64,7 @@ export default function Experiences({ title: sectionTitle, data }) {
               </p>
             </div>
           </div>
-          {idx < data.length - 1 && <SplitLine width="[80%]" weight="200" />}
+          {idx < data.length && <SplitLine width="[80%]" weight="200" />}
         </>
       ))}
     </div>
