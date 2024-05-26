@@ -13,7 +13,7 @@ export default function Footer() {
         <a href="https://hackmd.io/@Bing-Wei-Chen" target="_blank">
           <img src={HackMDURL} alt="hackmd link" className="w-9 m-2 rounded border-black border" />
         </a>
-        <a href="https://www.linkedin.com/in/bing-wei-chen-80620a2a2/" target="_blank">
+        <a href="https://www.linkedin.com/in/chenbingwei1201/" target="_blank">
           <img src={LinkedInURL} alt="linkedin link" className="w-9 m-2" />
         </a>
         <a href="https://www.facebook.com/ChenBingWei.CBW/" target="_blank">

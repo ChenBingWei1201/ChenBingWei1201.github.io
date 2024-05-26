@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "NTUEE LightDance",
     highlight: "",
-    time: "Jan. 2024 - Mar 2024",
+    time: "Jan. 2024 - Mar. 2024",
     link: [
       { text: "github", url: "https://github.com/NTUEELightDance/LightDance-Editor" },
       { text: "video", url: "https://www.youtube.com/watch?v=ZYaDQQLl05Y" },
@@ -15,14 +15,14 @@ export const projects = [
   {
     title: "Robot Vacuum",
     highlight: "TAs' award",
-    time: "Apr 2023 - Jun 2023",
+    time: "Apr. 2023 - Jun. 2023",
     link: [
       { text: "github", url: "https://github.com/CarCarGroup05/RobotVacuum" },
       { text: "video", url: "https://drive.google.com/file/d/1uKcAOxdOzR3wV2w1l4O7U7kiejziHNuA/view?usp=drive_link" },
       { text: "report", url: "https://drive.google.com/file/d/1oDNosDyCHkphb0QrKuw6S_bEPcf_om2Z/view?usp=drive_link" },
     ],
     content: [
-      "Due to this aging society, we intended to develop a robot vacuum to care for senior citizens. It has the ability not only to clean the floor but also to detect whether a senior citizen have fallen using a Pi camera and a google ML model(MediaPipe).",
+      "NTUEE 112-2 Cornerstone EECS Design and Implementation Class final project. Due to this aging society, we intended to develop a robot vacuum to care for senior citizens. It has the ability not only to clean the floor but also to detect whether a senior citizen have fallen using a Pi camera and a google ML model(MediaPipe).",
     ],
     tags: ["Raspberry Pi4", "Pi Camera", "Arduino", "MediaPipe", "Line Notify", "C++", "Python", "App Inventor"]
   },
@@ -45,7 +45,7 @@ export const projects = [
       { text: "github", url: "https://github.com/NTUEE-Web-Programming-Final-Project/final-project" },
     ],
     content: [
-      "NTUEE 112-1 Web Programming Class Final Project."
+      "NTUEE 112-1 Web Programming Class final project."
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
   },
@@ -69,7 +69,7 @@ export const projects = [
       { text: "notes", url: "https://hackmd.io/@math-and-electrical-engineering" }
     ],
     content: [
-      "NTUEE 110-2 Computer Programming Class Final Project. It is a 2D game developed by SDL library in C/C++."
+      "NTUEE 110-2 Computer Programming Class final project. It is a 2D game developed by SDL library in C/C++."
     ],
     tags: ["C++", "C"]
   },
