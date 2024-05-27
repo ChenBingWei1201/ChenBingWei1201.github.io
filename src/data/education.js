@@ -2,7 +2,7 @@ export const education = [
   {
     time: "2022 - Now",
     content: [
-      "B.S. in NTU Electrical Engineering"
+      "National Taiwan University B.S. Department of Electrical Engineering."
     ]
   }
 ];

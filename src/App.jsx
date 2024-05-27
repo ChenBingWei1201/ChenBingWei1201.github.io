@@ -10,6 +10,7 @@ import { education } from "./data/education";
 import { projects } from "./data/experiences/projects";
 import { competitions } from "./data/experiences/competitions";
 import { skills } from "./data/skills";
+import { extracurriculars } from "./data/experiences/extracurriculars";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       {/*<SplitLine width="11/12" weight="300" />*/}
 
       <Experiences title="Projects" data={projects} />
+      {/*<SplitLine width="11/12" weight="300" />*/}
+
+      <Experiences title="Extracurriculars" data={extracurriculars} />
       {/*<SplitLine width="11/12" weight="300" />*/}
 
       <Skills data={skills} />
