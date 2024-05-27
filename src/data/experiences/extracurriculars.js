@@ -1,8 +1,8 @@
 export const extracurriculars = [
   {
-    title: "NTUEE Info. Dep. - Member & Leader",
+    title: "NTUEE Info. Dep. - Leader",
     highlight: "",
-    time: "Sep. 2022 - Jun. 2025",
+    time: "Aug. 2024 - Jun. 2025",
     link: [
       { text: "github-group", url: "https://github.com/NTUEEInfoDep" },
     ],
