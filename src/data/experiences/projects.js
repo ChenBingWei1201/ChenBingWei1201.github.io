@@ -57,6 +57,7 @@ export const projects = [
       { text: "github", url: "https://github.com/ChenBingWei1201/VMKS-Website" },
     ],
     content: [
+      "NTUEE Virtual Maker Space (VMKS) is a website that helps admins in Maker Space manage the equipment and the lending of the equipment from students in our department."
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
   },
