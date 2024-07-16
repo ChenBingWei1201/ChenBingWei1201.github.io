@@ -12,14 +12,14 @@ export const extracurriculars = [
     tags: ["JavaScript", "TypeScript", "Node.js", "FullStack"]
   },
   {
-    title: "VMKS - Co-Leader",
+    title: "VMKS - Leader",
     highlight: "",
     time: "Jun. 2024 - Aug. 2024",
     link: [
       { text: "github-group", url: "https://github.com/NTUEE-VirtualMKS" },
     ],
     content: [
-      "I am one of the full-stack developers on this team and will become the co-leader in Jun. 2024 to finish the project.",
+      "I am one of the full-stack developers on this team and will become the new leader in Jun. 2024 to finish the project.",
     ],
     tags: ["JavaScript", "TypeScript", "Node.js", "FullStack"]
   },
