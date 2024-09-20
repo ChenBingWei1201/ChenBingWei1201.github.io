@@ -26,4 +26,18 @@ export const competitions = [
     ],
     tags: ["Arduino", "ESP32", "C++", "C"]
   },
+  {
+    title: "GenAI Sports+",
+    highlight: "Finalist",
+    time: "Jul. 2024",
+    link: [
+      { text: "offical", url: "https://genaistars.org.tw/hackathon" },
+      { text: "github", url: "https://github.com/ChenBingWei1201/genai-stars" },
+      { text: "website", url: "https://genai-stars.vercel.app" },
+    ],
+    content: [
+      "It is a 24-hour hackathon organized by NSTC. Our team developed a web application that can help people to solve the ELTA's problem. We feed video from ELTA to Twelve Labs Model API and get the hashtags, summary, and chapters into Convex database. I was responsible for the frontend and part of the backend.",
+    ],
+    tags: ["Twelve Labs", "Nextjs", "Convex", "Clerk"]
+  }
 ];
