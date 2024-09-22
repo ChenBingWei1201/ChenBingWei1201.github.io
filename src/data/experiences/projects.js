@@ -61,6 +61,20 @@ export const projects = [
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
   },
+  {
+    title: "Dactyl Manuform Keyboard",
+    highlight: "",
+    time: "Jul. 2024 - Aug. 2024",
+    link: [
+      { text: "ref-1", url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065"},
+      { text: "ref-2", url: "https://docs.qmk.fm/"},
+      {text: "image", url: "https://example.com"}
+    ],
+    content: [
+      "It was a small project in my department in the summer break. It took me almost two months to built a Dactyl Manuform Keyboard with a 3D printer and programmed it with QMK firmware."
+    ],
+    tags: ["3D Printing", "QMK", "Fusion 360"]
+  }
   // {
   //   title: "Geometry Escape",
   //   highlight: "",
