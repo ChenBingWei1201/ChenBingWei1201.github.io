@@ -54,19 +54,6 @@ export const projects = [
     tags: ["3D Printing", "QMK", "Fusion 360"]
   }
   // {
-  //   title: "Geometry Escape",
-  //   highlight: "",
-  //   time: "Dec. 2022",
-  //   link: [
-  //     { text: "github", url: "https://github.com/Computer-Programming-Report/GeometryEscape" },
-  //     { text: "notes", url: "https://hackmd.io/@math-and-electrical-engineering" }
-  //   ],
-  //   content: [
-  //     "NTUEE 110-2 Computer Programming Class final project. It is a 2D game developed by SDL library in C/C++."
-  //   ],
-  //   tags: ["C++", "C"]
-  // },
-  // {
   //   title: "",
   //   highlight: "",
   //   time: "",

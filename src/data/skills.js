@@ -16,6 +16,10 @@ export const skills = [
     icon: "typescript.png",
   },
   {
+    title: "Solidity",
+    icon: "solidity.svg",
+  },
+  {
     title: "Python",
     icon: "python.png",
   },
