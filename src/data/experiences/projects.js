@@ -27,29 +27,6 @@ export const projects = [
     tags: ["Raspberry Pi4", "Pi Camera", "Arduino", "MediaPipe", "Line Notify", "C++", "Python", "App Inventor"]
   },
   {
-    title: "NTUEE Course Map",
-    highlight: "",
-    time: "Apr. 2024 - now",
-    link: [
-      { text: "github", url: "https://github.com/ChenBingWei1201/NTUEECourseMap/tree/2024version" },
-    ],
-    content: [
-    ],
-    tags: ["JavaScript", "React", "Apollo Graphql", "PostgreSQL"]
-  },
-  {
-    title: "EE Forum",
-    highlight: "",
-    time: "Sep. 2023 - Jan 2024",
-    link: [
-      { text: "github", url: "https://github.com/NTUEE-Web-Programming-Final-Project/final-project" },
-    ],
-    content: [
-      "NTUEE 112-1 Web Programming Class final project."
-    ],
-    tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"]
-  },
-  {
     title: "VMKS",
     highlight: "",
     time: "Jun. 2023 - now",
