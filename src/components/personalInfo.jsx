@@ -15,7 +15,7 @@ export default function PersonalInfo({ data }) {
         <div>
           {
             data.map(([key, value]) => (
-              <p key={key} className="text-base font-sans text-neutral-500 m-1">
+              <p key={key} className="text-base sm:text-sm md:text-base lg:text-base xl:text-base font-sans text-neutral-500 m-1">
                 <span className="font-semibold">{key}:</span> {value}
               </p>
             ))
