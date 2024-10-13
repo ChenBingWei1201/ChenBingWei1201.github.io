@@ -5,6 +5,7 @@ export const projects = [
     time: "Jan. 2024 - Mar. 2024",
     link: [
       { text: "github", url: "https://github.com/NTUEELightDance/LightDance-Editor" },
+      { text: "youtube", url: "https://youtube.com/@ntueelightdance6849?feature=shared" },
       { text: "video", url: "https://www.youtube.com/watch?v=ZYaDQQLl05Y" },
     ],
     content: [
