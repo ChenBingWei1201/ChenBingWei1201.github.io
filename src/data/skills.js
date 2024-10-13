@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     title: "Solidity",
-    icon: "solidity.svg",
+    icon: "solidity.png",
   },
   {
     title: "Python",
