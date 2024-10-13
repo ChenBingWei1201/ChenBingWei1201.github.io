@@ -7,7 +7,7 @@ export default function PersonalInfo({ data }) {
         <img
           src="me.png"
           alt="Bing-Wei, Chen (陳秉緯)"
-          className="rounded-full w-40 h-40 bg-white shadow-2xl"
+          className="rounded-full bg-white shadow-2xl aspect-square sm:w-24 sm:h-24 md:w-40 md:h-40 lg:w-40 lg:h-40 xl:w-40 xl:h-40"
         />
       </div>
       <div className="flex flex-col items-start justify-center w-[80%]">

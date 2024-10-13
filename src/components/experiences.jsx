@@ -11,8 +11,8 @@ export default function Experiences({ title: sectionTitle, data }) {
 
       {data.map(({ title, highlight, time, link, content, tags }, idx) => (
         <>
-          <div className="flex items-stretch h-fit w-full my-2">
-            <div className="w-[20%] flex flex-col">
+          <div className="flex h-fit w-full my-2 gap-2 flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
+            <div className="md:w-[20%] lg:w-[20%] xl:w-[20%] flex flex-col">
               <h2 className="font-sans text-lg">{title}</h2>
               {
                 highlight !== "" &&
@@ -44,8 +44,7 @@ export default function Experiences({ title: sectionTitle, data }) {
                 }
               </p>
             </div>
-            {}
-            <div className="w-[80%] flex flex-col justify-between">
+            <div className="md:w-[80%] lg:w-[80%] xl:w-[80%] flex flex-col justify-between">
               <p className="text-left font-sans text-sm text-neutral-800">
                 {content.map((row, idx) => (
                   <>
@@ -64,7 +63,7 @@ export default function Experiences({ title: sectionTitle, data }) {
               </p>
             </div>
           </div>
-          {idx < data.length && <SplitLine width="[80%]" weight="200" />}
+          {idx < data.length && <SplitLine weight="200" />}
         </>
       ))}
     </div>
