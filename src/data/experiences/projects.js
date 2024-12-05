@@ -46,12 +46,25 @@ export const projects = [
     link: [
       { text: "ref-1", url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065"},
       { text: "ref-2", url: "https://docs.qmk.fm/"},
-      {text: "image", url: "https://example.com"}
+      {text: "image", url: "https://drive.google.com/file/d/1fxI3V_D8yuzRquAFQCt-YlxhQiGqq-Ey/view?usp=sharing"}
     ],
     content: [
       "It was a small project in my department in the summer break. It took me almost two months to built a Dactyl Manuform Keyboard with a 3D printer and programmed it with QMK firmware."
     ],
     tags: ["3D Printing", "QMK", "Fusion 360"]
+  },
+  {
+    title: "threads_scraper",
+    highlight: "",
+    time: "Dec. 2024",
+    link: [
+      { text: "github", url: "https://github.com/ChenBingWei1201/threads_scraper"},
+      { text: "pypi", url: "https://pypi.org/project/threads-scraper/"},
+    ],
+    content: [
+      "A Python package for scraping Threads posts. It can scrape the posts by the given keywords and save the posts to a csv file."
+    ],
+    tags: ["Python", "Selenium", "ChromeDriver"]
   }
   // {
   //   title: "",
