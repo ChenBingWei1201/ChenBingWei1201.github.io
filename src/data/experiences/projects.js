@@ -65,6 +65,20 @@ export const projects = [
       "A Python package for scraping Threads posts. It can scrape the posts by the given keywords and save the posts to a csv file."
     ],
     tags: ["Python", "Selenium", "ChromeDriver"]
+  },
+  {
+    title: "ML Final Project",
+    highlight: "",
+    time: "Oct. 2024 - Dec. 2024",
+    link: [
+      { text:"class-website", url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/"},
+      { text: "rule", url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/final/final.pdf" },
+      { text: "report", url: "https://drive.google.com/file/d/1a_QjqrQdfsYdkfhr8WQSGK2mDNxc7vtR/view?usp=sharing" },
+    ],
+    content: [
+      "It is a machine learning final project at Machine Learning, Fall 2024 in NTUCSIE. It is a prediction project that uses at least 4 machine learning methods to predict the winner of baseball games. I was responsible for the XGBoost model."
+    ],
+    tags: ["Python", "XGBoost", "Scikit-learn"]
   }
   // {
   //   title: "",
