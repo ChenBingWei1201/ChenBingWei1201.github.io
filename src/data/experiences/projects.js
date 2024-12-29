@@ -79,6 +79,19 @@ export const projects = [
       "It is a machine learning final project at Machine Learning, Fall 2024 in NTUCSIE. It is a prediction project that uses at least 4 machine learning methods to predict the winner of baseball games. I was responsible for the XGBoost model."
     ],
     tags: ["Python", "XGBoost", "Scikit-learn"]
+  },
+  {
+    title: "MedicationTrackingApp",
+    highlight: "",
+    time: "Dec. 2024",
+    link: [
+      { text: "github", url: "https://github.com/ChenBingWei1201/MedicationTrackingApp" },
+      { text: "report", url: "https://drive.google.com/drive/folders/16iHki0Dm4yHXm4xOsHz8CBZsnXuHVqFX?usp=sharing" }
+    ],
+    content: [
+      "We use MediaPipe to track the user's medication intake with Pi cam and store the data into Supabase. We also build this app with React Native Expo Router to display the user's medication history and remind the user to take their medication between the time intervals they set. I was responsible for the full-stack development of this app."
+    ],
+    tags: ["Expo", "Supabase", "MediaPipe", "Raspberry Pi"]
   }
   // {
   //   title: "",

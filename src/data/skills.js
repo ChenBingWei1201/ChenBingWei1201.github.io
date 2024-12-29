@@ -24,6 +24,10 @@ export const skills = [
     icon: "next-js.svg",
   },
   {
+    title: "Expo",
+    icon: "expo.png"
+  },
+  {
     title: "Solidity",
     icon: "solidity.svg",
   },
@@ -50,6 +54,14 @@ export const skills = [
   {
     title: "Postgresql",
     icon: "postgresql.png"
+  },
+  {
+    title: "Convex",
+    icon: "convex.png"
+  },
+  {
+    title: "Supabase",
+    icon: "supabase.png"
   },
   {
     title: "Docker",
