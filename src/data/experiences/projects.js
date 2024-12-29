@@ -89,7 +89,7 @@ export const projects = [
       { text: "report", url: "https://drive.google.com/drive/folders/16iHki0Dm4yHXm4xOsHz8CBZsnXuHVqFX?usp=sharing" }
     ],
     content: [
-      "We use MediaPipe to track the user's medication intake with Pi cam and store the data into Supabase. We also build this app with React Native Expo Router to display the user's medication history and remind the user to take their medication between the time intervals they set. I was responsible for the full-stack development of this app."
+      "This is the final project of Electrical Engineering Lab (Networking and Multimedia) in NTUEE. We use MediaPipe to track the user's medication intake with Pi cam and store the data into Supabase. We also build this app with React Native Expo Router to display the user's medication history and remind the user to take their medication between the time intervals he/she set. I was responsible for the full-stack development of this app."
     ],
     tags: ["Expo", "Supabase", "MediaPipe", "Raspberry Pi"]
   }
