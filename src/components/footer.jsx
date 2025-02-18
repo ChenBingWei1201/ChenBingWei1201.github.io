@@ -30,13 +30,13 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center h-24 w-full border-t border-black bg-gray-100">
       <div className="flex flex-row items-center justify-center">
-        {icons.map((icon) => <a href={icon.href} target="_blank">
-          <img src={icon.src} alt={icon.alt} className="w-9 m-2" />
-        </a>)}
+        {icons.map((icon) => (
+          <a href={icon.href} target="_blank" rel="noreferrer" key={icon.alt}>
+            <img src={icon.src} alt={icon.alt} className="w-9 m-2" />
+          </a>
+        ))}
       </div>
-      <p className="text-base">
-        © 2024 Bing-Wei, Chen (陳秉緯)
-      </p>
+      <p className="text-base">© 2024 Bing-Wei, Chen (陳秉緯)</p>
     </footer>
   );
 }

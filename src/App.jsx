@@ -1,9 +1,14 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import PersonalInfo from "./components/personalInfo";
 import Education from "./components/education";
 import Experiences from "./components/experiences";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
-// import SplitLine from "./components/splitLine";
 
 import { personalInfo } from "./data/personal_info";
 import { education } from "./data/education";
@@ -15,26 +20,40 @@ import { extracurriculars } from "./data/experiences/extracurriculars";
 function App() {
   return (
     <div className="h-full flex flex-col items-center justify-center">
-      {/*<div className="px-40 mx-auto">*/}
-      <PersonalInfo data={personalInfo} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      <Education data={education} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      <Experiences title="Competitions" data={competitions} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      <Experiences title="Projects" data={projects} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      <Experiences title="Extracurriculars" data={extracurriculars} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      <Skills data={skills} />
-      {/*<SplitLine width="11/12" weight="300" />*/}
-
-      {/*</div>*/}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Navigate replace to="/en" />} />
+          <Route
+            path="/en"
+            element={
+              <>
+                <PersonalInfo data={personalInfo("/en")} />
+                <Education title="Education" data={education("/en")} />
+                <Experiences title="Competitions" data={competitions("/en")} />
+                <Experiences title="Projects" data={projects("/en")} />
+                <Experiences
+                  title="Extracurriculars"
+                  data={extracurriculars("/en")}
+                />
+                <Skills title="Technical Skills" data={skills} />
+              </>
+            }
+          />
+          <Route
+            path="/zh"
+            element={
+              <>
+                <PersonalInfo data={personalInfo("/zh")} />
+                <Education title="教育程度" data={education("/zh")} />
+                <Experiences title="比賽經歷" data={competitions("/zh")} />
+                <Experiences title="專案" data={projects("/zh")} />
+                <Experiences title="擔任過" data={extracurriculars("/zh")} />
+                <Skills title="使用之技術" data={skills} />
+              </>
+            }
+          />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );

@@ -16,7 +16,7 @@ export const skills = [
     icon: "typescript.png",
   },
   {
-    title: "React",
+    title: "React.js",
     icon: "react.png",
   },
   {
@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     title: "Expo",
-    icon: "expo.png"
+    icon: "expo.png",
   },
   {
     title: "Solidity",
@@ -40,28 +40,28 @@ export const skills = [
     icon: "rust.png",
   },
   {
-    title: "Apollo Graphql",
-    icon: "apollo.png"
+    title: "Apollo GraphQL",
+    icon: "apollo.png",
   },
   {
     title: "Prisma",
-    icon: "prisma.png"
+    icon: "prisma.png",
   },
   {
-    title: "Mongodb",
-    icon: "mongodb.svg"
+    title: "MongoDB",
+    icon: "mongodb.svg",
   },
   {
-    title: "Postgresql",
-    icon: "postgresql.png"
+    title: "PostgreSQL",
+    icon: "postgresql.png",
   },
   {
     title: "Convex",
-    icon: "convex.png"
+    icon: "convex.png",
   },
   {
     title: "Supabase",
-    icon: "supabase.png"
+    icon: "supabase.png",
   },
   {
     title: "Docker",
@@ -78,6 +78,10 @@ export const skills = [
   {
     title: "Inventor",
     icon: "inventor.png",
+  },
+  {
+    title: "Raspberry Pi",
+    icon: "rpi.png",
   },
   // {
   //   title: "",
