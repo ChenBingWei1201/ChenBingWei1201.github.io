@@ -36,6 +36,7 @@ function App() {
                   data={extracurriculars("/en")}
                 />
                 <Skills title="Technical Skills" data={skills} />
+                <Footer />
               </>
             }
           />
@@ -49,12 +50,22 @@ function App() {
                 <Experiences title="專案" data={projects("/zh")} />
                 <Experiences title="擔任過" data={extracurriculars("/zh")} />
                 <Skills title="使用之技術" data={skills} />
+                <Footer />
               </>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <div className="flex flex-col items-center justify-center">
+                <h1 className="font-bold text-4xl text-red-500">
+                  404 Not Found
+                </h1>
+              </div>
             }
           />
         </Routes>
       </Router>
-      <Footer />
     </div>
   );
 }
