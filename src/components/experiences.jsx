@@ -57,7 +57,7 @@ export default function Experiences({ title: sectionTitle, data }) {
               <div className="md:w-[20%] lg:w-[20%] xl:w-[20%] flex flex-col">
                 <h2 className="font-sans text-lg">{title}</h2>
                 {highlight !== "" && (
-                  <p className="text-left font-sans text-sm text-orange-800 font-bold">
+                  <p className="text-left font-sans text-sm text-orange-800 font-bold w-11/12">
                     {highlight}
                   </p>
                 )}
