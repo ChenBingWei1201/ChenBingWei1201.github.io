@@ -55,7 +55,7 @@ const projectsEn = [
     link: [
       {
         text: "github",
-        url: "https://github.com/ChenBingWei1201/VMKS-Website",
+        url: "https://github.com/NTUEE-VirtualMKS/VMKS-Website",
       },
     ],
     content: [
