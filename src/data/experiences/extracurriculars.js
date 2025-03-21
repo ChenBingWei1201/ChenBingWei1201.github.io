@@ -41,7 +41,7 @@ const extracurricularsZh = [
     time: "2024 年 8 月 - 2025 年 6 月",
     link: [{ text: "github-org", url: "https://github.com/NTUEEInfoDep" }],
     content: [
-      "NTUEE 資訊部隸屬於台大電機工程學系學生會，利用課餘時間為整個系上提供服務。我們開發了許多不同的網站，包括 NTUEE 課程網站、MakeNTU 主網站、NTUEE 電機週遊戲等，這些網站的目的都是為了提升系上同學的便利性。我將於 2024 年 8 月擔任部長，負責教授新生網頁開發技能，幫助他們在升上大二後能夠順利進行開發工作。",
+      "​NTUEE 資訊部隸屬於台大電機工程學系學生會，利用課餘時間為整個系上提供服務。我們開發了許多不同的網站，包括 NTUEE 課程網站、MakeNTU 主網站、NTUEE 電機週遊戲等，這些網站的目的都是為了提升系上同學的便利性。我在 2024 年 8 月起擔任部長，負責教大一新生網頁開發技能，幫助他們在升上大二後能夠順利進行開發工作。",
     ],
     tags: ["JavaScript", "TypeScript", "Node.js", "FullStack"],
   },
