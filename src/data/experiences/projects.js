@@ -59,7 +59,7 @@ const projectsEn = [
       },
     ],
     content: [
-      "NTUEE Virtual Maker Space (VMKS) is a website that helps admins in Maker Space manage the equipment and the lending of the equipment from students in our department.",
+      "NTUEE Virtual Maker Space (VMKS) is a website that helps Maker Space administrators manage materials and equipment borrowing and also allows students in the department to apply for borrowing more conveniently. At first, I was only responsible for writing the backend, but later, I became the project leader, writing the entire end and leading a team of about four people.",
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"],
   },
@@ -209,7 +209,7 @@ const projectsZh = [
         url: "https://github.com/ChenBingWei1201/VMKS-Website",
       },
     ],
-    content: ["NTUEE VMKS是一個幫助系上創客空間管理設備及學生借用設備的網站。"],
+    content: ["NTUEE Virtual Maker Space (VMKS) 是一個幫助Maker Space 管理員管理材料與器材借用網站，也讓系上同學能更方便申請借用。一開始只負責撰寫後端，但後來成為專案負責人，撰寫全端且帶領大約四人團隊。"],
     tags: ["TypeScript", "React", "Apollo GraphQL", "PostgreSQL"],
   },
   {
