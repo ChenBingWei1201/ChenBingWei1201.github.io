@@ -80,17 +80,9 @@ npm run build
 └── vite.config.js      # Vite configuration
 ```
 
-## 📋 TODO
-
-- [ ] Add more project showcases
-- [ ] Implement dark mode
-- [ ] Add blog section
-- [ ] Improve accessibility
-
 ## 🙏 Credits
 
 - Original template: [tom14844/resume](https://github.com/tom1484/resume)
-- Icons: [React Icons](https://react-icons.github.io/react-icons/)
 
 ## 📄 License
 
