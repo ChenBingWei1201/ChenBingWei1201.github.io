@@ -12,10 +12,13 @@ import Footer from "./components/footer";
 
 import { personalInfo } from "./data/personal_info";
 import { education } from "./data/education";
-import { projects } from "./data/experiences/projects";
-import { competitions } from "./data/experiences/competitions";
 import { skills } from "./data/skills";
-import { extracurriculars } from "./data/experiences/extracurriculars";
+import {
+  projects,
+  competitions,
+  academics,
+  extracurriculars,
+} from "./data/experiences/index";
 
 function App() {
   return (
@@ -35,8 +38,8 @@ function App() {
                   title="Extracurriculars"
                   data={extracurriculars("/en")}
                 />
+                <Experiences title="Academics" data={academics("/en")} />
                 <Skills title="Technical Skills" data={skills} />
-                <Footer />
               </>
             }
           />
@@ -49,8 +52,8 @@ function App() {
                 <Experiences title="比賽經歷" data={competitions("/zh")} />
                 <Experiences title="專案" data={projects("/zh")} />
                 <Experiences title="擔任過" data={extracurriculars("/zh")} />
+                <Experiences title="學術研究" data={academics("/zh")} />
                 <Skills title="使用之技術" data={skills} />
-                <Footer />
               </>
             }
           />
@@ -66,6 +69,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

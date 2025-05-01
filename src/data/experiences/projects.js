@@ -63,26 +63,26 @@ const projectsEn = [
     ],
     tags: ["TypeScript", "React", "Apollo Graphql", "PostgreSQL"],
   },
-  {
-    title: "Dactyl Manuform Keyboard",
-    highlight: "",
-    time: "Jul. 2024 - Aug. 2024",
-    link: [
-      {
-        text: "ref-1",
-        url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065",
-      },
-      { text: "ref-2", url: "https://docs.qmk.fm/" },
-      {
-        text: "image",
-        url: "https://drive.google.com/file/d/1fxI3V_D8yuzRquAFQCt-YlxhQiGqq-Ey/view?usp=sharing",
-      },
-    ],
-    content: [
-      "It was a small project in my department in the summer break. It took me almost two months to built a Dactyl Manuform Keyboard with a 3D printer and programmed it with QMK firmware.",
-    ],
-    tags: ["3D Printing", "QMK", "Fusion 360"],
-  },
+  // {
+  //   title: "Dactyl Manuform Keyboard",
+  //   highlight: "",
+  //   time: "Jul. 2024 - Aug. 2024",
+  //   link: [
+  //     {
+  //       text: "ref-1",
+  //       url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065",
+  //     },
+  //     { text: "ref-2", url: "https://docs.qmk.fm/" },
+  //     {
+  //       text: "image",
+  //       url: "https://drive.google.com/file/d/1fxI3V_D8yuzRquAFQCt-YlxhQiGqq-Ey/view?usp=sharing",
+  //     },
+  //   ],
+  //   content: [
+  //     "It was a small project in my department in the summer break. It took me almost two months to built a Dactyl Manuform Keyboard with a 3D printer and programmed it with QMK firmware.",
+  //   ],
+  //   tags: ["3D Printing", "QMK", "Fusion 360"],
+  // },
   {
     title: "threads_scraper",
     highlight: "",
@@ -98,29 +98,6 @@ const projectsEn = [
       "A Python package for scraping Threads posts. It can scrape the posts by the given keywords and save the posts to a csv file.",
     ],
     tags: ["Python", "Selenium", "ChromeDriver"],
-  },
-  {
-    title: "ML Final Project",
-    highlight: "",
-    time: "Oct. 2024 - Dec. 2024",
-    link: [
-      {
-        text: "class-website",
-        url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/",
-      },
-      {
-        text: "rule",
-        url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/final/final.pdf",
-      },
-      {
-        text: "report",
-        url: "https://drive.google.com/file/d/1a_QjqrQdfsYdkfhr8WQSGK2mDNxc7vtR/view?usp=sharing",
-      },
-    ],
-    content: [
-      "It is a machine learning final project at Machine Learning, Fall 2024 in NTUCSIE. It is a prediction project that uses at least 4 machine learning methods to predict the winner of baseball games. I was responsible for the XGBoost model.",
-    ],
-    tags: ["Python", "XGBoost", "Scikit-learn"],
   },
   {
     title: "MedicationTracking App",
@@ -209,32 +186,34 @@ const projectsZh = [
         url: "https://github.com/ChenBingWei1201/VMKS-Website",
       },
     ],
-    content: ["NTUEE Virtual Maker Space (VMKS) 是一個幫助Maker Space 管理員管理材料與器材借用網站，也讓系上同學能更方便申請借用。一開始只負責撰寫後端，但後來成為專案負責人，撰寫全端且帶領大約四人團隊。"],
+    content: [
+      "NTUEE Virtual Maker Space (VMKS) 是一個幫助Maker Space 管理員管理材料與器材借用網站，也讓系上同學能更方便申請借用。一開始只負責撰寫後端，但後來成為專案負責人，撰寫全端且帶領大約四人團隊。",
+    ],
     tags: ["TypeScript", "React", "Apollo GraphQL", "PostgreSQL"],
   },
-  {
-    title: "Dactyl Manuform 鍵盤",
-    highlight: "",
-    time: "2024 年 7 月 - 2024 年 8 月",
-    link: [
-      {
-        text: "參考資料 1",
-        url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065",
-      },
-      {
-        text: "參考資料 2",
-        url: "https://docs.qmk.fm/",
-      },
-      {
-        text: "圖片",
-        url: "https://drive.google.com/file/d/1fxI3V_D8yuzRquAFQCt-YlxhQiGqq-Ey/view?usp=sharing",
-      },
-    ],
-    content: [
-      "這是我在暑假期間於系上進行的一個小專案。我花了近兩個月的時間，使用 3D 列印技術製作了一款 Dactyl Manuform 鍵盤，並使用 QMK 韌體進行程式設計。",
-    ],
-    tags: ["3D 列印", "QMK", "Fusion 360"],
-  },
+  // {
+  //   title: "Dactyl Manuform 鍵盤",
+  //   highlight: "",
+  //   time: "2024 年 7 月 - 2024 年 8 月",
+  //   link: [
+  //     {
+  //       text: "參考資料 1",
+  //       url: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065",
+  //     },
+  //     {
+  //       text: "參考資料 2",
+  //       url: "https://docs.qmk.fm/",
+  //     },
+  //     {
+  //       text: "圖片",
+  //       url: "https://drive.google.com/file/d/1fxI3V_D8yuzRquAFQCt-YlxhQiGqq-Ey/view?usp=sharing",
+  //     },
+  //   ],
+  //   content: [
+  //     "這是我在暑假期間於系上進行的一個小專案。我花了近兩個月的時間，使用 3D 列印技術製作了一款 Dactyl Manuform 鍵盤，並使用 QMK 韌體進行程式設計。",
+  //   ],
+  //   tags: ["3D 列印", "QMK", "Fusion 360"],
+  // },
   {
     title: "threads_scraper",
     highlight: "",
@@ -253,29 +232,6 @@ const projectsZh = [
       "這是一個用於爬取 Threads 貼文的 Python 套件。它能夠根據關鍵字搜尋貼文，並將其存儲到 CSV 檔案中。",
     ],
     tags: ["Python", "Selenium", "ChromeDriver"],
-  },
-  {
-    title: "機器學習期末專案",
-    highlight: "",
-    time: "2024 年 10 月 - 2024 年 12 月",
-    link: [
-      {
-        text: "課程網站",
-        url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/",
-      },
-      {
-        text: "規則",
-        url: "https://www.csie.ntu.edu.tw/~htlin/course/ml24fall/final/final.pdf",
-      },
-      {
-        text: "報告",
-        url: "https://drive.google.com/file/d/1a_QjqrQdfsYdkfhr8WQSGK2mDNxc7vtR/view?usp=sharing",
-      },
-    ],
-    content: [
-      "這是 2024 年秋季在台大資工系修讀的機器學習課程的期末專案。我們的專案旨在透過至少四種機器學習方法來預測棒球比賽的勝負。我負責 XGBoost 模型的開發。",
-    ],
-    tags: ["Python", "XGBoost", "Scikit-learn"],
   },
   {
     title: "MedicationTracking App",

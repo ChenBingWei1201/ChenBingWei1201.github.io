@@ -25,7 +25,7 @@ export default function PersonalInfo({ data }) {
       </div>
       <div className="flex flex-col items-start justify-center xl:w-[80%] lg:w-[80%] md:w-[80%] sm:w-full">
         <h1 className="font-sans text-3xl mb-3 w-11/12 sm:mx-auto md:mx-0 lg:mx-0 xl:mx-0 font-bold">
-          Bing-Wei, Chen 陳秉緯
+          Bing-Wei, Chen
         </h1>
         <div>
           {data.map(([key, value]) => (
@@ -50,7 +50,7 @@ export default function PersonalInfo({ data }) {
           ))}
           <p className="text-sm font-sans text-neutral-500 m-1 font-semibold">
             <button onClick={handleLanguageClick}>
-              {route === "/zh" ? "Change Language" : "切換語言"}
+              {route === "/zh" ? "Switch Language" : "切換語言"}
             </button>
           </p>
         </div>

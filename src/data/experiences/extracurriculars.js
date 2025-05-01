@@ -13,7 +13,12 @@ const extracurricularsEn = [
     title: "VMKS Leader",
     highlight: "",
     time: "Jun. 2024 - Aug. 2024",
-    link: [{ text: "github-org", url: "https://github.com/NTUEE-VirtualMKS" }],
+    link: [
+      {
+        text: "github",
+        url: "https://github.com/NTUEE-VirtualMKS/VMKS-Website",
+      },
+    ],
     content: [
       "I am one of the full-stack developers on this team and will become the new leader in Jun. 2024 to finish the project.",
     ],
@@ -26,6 +31,10 @@ const extracurricularsEn = [
     link: [
       { text: "github-org", url: "https://github.com/Synality" },
       { text: "website", url: "https://synality-mvp2.vercel.app" },
+      {
+        text: "youtube",
+        url: "https://youtu.be/PR5GrGPCx5Y?si=4F-4TUj_XHb3n5Ns",
+      },
     ],
     content: [
       "Synality is a group that I founded with my friends. We are developing a web application called Synality that uses psychological testing to help college students from different departments make friends. With the built-in friends recommendation and chatroom, making friends becomes so easy! Befriend Synality, Be Friend Simply! I am responsible for the whole chatroom UI/UX and backend development.",
@@ -49,7 +58,12 @@ const extracurricularsZh = [
     title: "VMKS 負責人",
     highlight: "",
     time: "2024 年 6 月 - 2024 年 8 月",
-    link: [{ text: "github-org", url: "https://github.com/NTUEE-VirtualMKS" }],
+    link: [
+      {
+        text: "github",
+        url: "https://github.com/NTUEE-VirtualMKS/VMKS-Website",
+      },
+    ],
     content: [
       "我是這個團隊的全端開發者之一，並將於 2024 年 6 月成為新任領導人，負責完成這個專案。",
     ],
@@ -62,6 +76,10 @@ const extracurricularsZh = [
     link: [
       { text: "github-org", url: "https://github.com/Synality" },
       { text: "website", url: "https://synality-mvp2.vercel.app" },
+      {
+        text: "youtube",
+        url: "https://youtu.be/PR5GrGPCx5Y?si=4F-4TUj_XHb3n5Ns",
+      },
     ],
     content: [
       "Synality 是我與朋友共同創立的團隊，我們正在開發一款名為 Synality 的網頁應用程式，透過心理測驗幫助來自不同科系的大學生結交朋友。內建的好友推薦與聊天室功能，讓交朋友變得更簡單！Befriend Synality, Be Friend Simply! 我負責整個聊天室的 UI/UX 設計與後端開發。",

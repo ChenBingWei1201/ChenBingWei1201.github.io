@@ -45,26 +45,26 @@ const competitionsEn = [
     ],
     tags: ["Arduino", "ESP32", "C++", "C"],
   },
-  {
-    title: "FRC 2019 Hawaii Regional",
-    highlight: "Judges' Award",
-    time: "Mar. 2019",
-    link: [
-      {
-        text: "offical",
-        url: "https://frc-events.firstinspires.org/2019/team/7497",
-      },
-      {
-        text: "video",
-        url: "https://drive.google.com/file/d/1qWZYzhzt-rutPnEtFZ9Z5M-Gk1Sr0_K1/view?usp=sharing",
-      },
-      { text: "website", url: "https://team7497.com/" },
-    ],
-    content: [
-      "I was a team 7497 - Maraho member from ChengGong Senior High School. This was our first year to participate in FRC competitions. I was responsible for mechanical design and became the mechanical design leader the next year. We use Autodesk Inventor to design our robotics.",
-    ],
-    tags: ["Inventor", "AutoLaser", "3DP"],
-  },
+  // {
+  //   title: "FRC 2019 Hawaii Regional",
+  //   highlight: "Judges' Award",
+  //   time: "Mar. 2019",
+  //   link: [
+  //     {
+  //       text: "offical",
+  //       url: "https://frc-events.firstinspires.org/2019/team/7497",
+  //     },
+  //     {
+  //       text: "video",
+  //       url: "https://drive.google.com/file/d/1qWZYzhzt-rutPnEtFZ9Z5M-Gk1Sr0_K1/view?usp=sharing",
+  //     },
+  //     { text: "website", url: "https://team7497.com/" },
+  //   ],
+  //   content: [
+  //     "I was a team 7497 - Maraho member from ChengGong Senior High School. This was our first year to participate in FRC competitions. I was responsible for mechanical design and became the mechanical design leader the next year. We use Autodesk Inventor to design our robotics.",
+  //   ],
+  //   tags: ["Inventor", "AutoLaser", "3DP"],
+  // },
 ];
 
 const competitionsZh = [
@@ -114,26 +114,26 @@ const competitionsZh = [
     ],
     tags: ["Arduino", "ESP32", "C++", "C"],
   },
-  {
-    title: "FRC 2019 夏威夷區域賽",
-    highlight: "評審獎",
-    time: "2019年3月",
-    link: [
-      {
-        text: "官方網站",
-        url: "https://frc-events.firstinspires.org/2019/team/7497",
-      },
-      {
-        text: "影片",
-        url: "https://drive.google.com/file/d/1qWZYzhzt-rutPnEtFZ9Z5M-Gk1Sr0_K1/view?usp=sharing",
-      },
-      { text: "網站", url: "https://team7497.com/" },
-    ],
-    content: [
-      "我是成功高中的 7497 Maraho 隊員。這是我們第一次參加 FRC 比賽，我負責機械設計，並在隔年成為機械設計組長。我們使用 Autodesk Inventor 設計機器人。",
-    ],
-    tags: ["Inventor", "AutoLaser", "3DP"],
-  },
+  // {
+  //   title: "FRC 2019 夏威夷區域賽",
+  //   highlight: "評審獎",
+  //   time: "2019年3月",
+  //   link: [
+  //     {
+  //       text: "官方網站",
+  //       url: "https://frc-events.firstinspires.org/2019/team/7497",
+  //     },
+  //     {
+  //       text: "影片",
+  //       url: "https://drive.google.com/file/d/1qWZYzhzt-rutPnEtFZ9Z5M-Gk1Sr0_K1/view?usp=sharing",
+  //     },
+  //     { text: "網站", url: "https://team7497.com/" },
+  //   ],
+  //   content: [
+  //     "我是成功高中的 7497 Maraho 隊員。這是我們第一次參加 FRC 比賽，我負責機械設計，並在隔年成為機械設計組長。我們使用 Autodesk Inventor 設計機器人。",
+  //   ],
+  //   tags: ["Inventor", "AutoLaser", "3DP"],
+  // },
 ];
 
 export const competitions = (route) => {
