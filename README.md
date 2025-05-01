@@ -36,17 +36,20 @@ Visit my website: [chenbingwei1201.github.io](https://chenbingwei1201.github.io/
 ### Setup and Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/ChenBingWei1201/ChenBingWei1201.github.io.git
    cd ChenBingWei1201.github.io
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -58,6 +61,7 @@ Visit my website: [chenbingwei1201.github.io](https://chenbingwei1201.github.io/
 The website is automatically deployed through GitHub Actions whenever changes are pushed to the main branch.
 
 To build locally:
+
 ```bash
 npm run build
 ```
