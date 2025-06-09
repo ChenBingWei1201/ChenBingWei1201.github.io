@@ -15,18 +15,18 @@ export const skills = [
     title: "TypeScript",
     icon: "typescript.png",
   },
-  {
-    title: "React.js",
-    icon: "react.png",
-  },
-  {
-    title: "Next.js",
-    icon: "next-js.svg",
-  },
-  {
-    title: "Expo",
-    icon: "expo.png",
-  },
+  // {
+  //   title: "React.js",
+  //   icon: "react.png",
+  // },
+  // {
+  //   title: "Next.js",
+  //   icon: "next-js.svg",
+  // },
+  // {
+  //   title: "Expo",
+  //   icon: "expo.png",
+  // },
   {
     title: "Solidity",
     icon: "solidity.svg",
@@ -39,14 +39,14 @@ export const skills = [
     title: "Rust",
     icon: "rust.png",
   },
-  {
-    title: "Apollo GraphQL",
-    icon: "apollo.png",
-  },
-  {
-    title: "Prisma",
-    icon: "prisma.png",
-  },
+  // {
+  //   title: "Apollo GraphQL",
+  //   icon: "apollo.png",
+  // },
+  // {
+  //   title: "Prisma",
+  //   icon: "prisma.png",
+  // },
   {
     title: "MongoDB",
     icon: "mongodb.svg",
@@ -71,18 +71,18 @@ export const skills = [
     title: "Full Stack",
     icon: "full-stack.png",
   },
-  {
-    title: "Fusion 360",
-    icon: "fusion360.png",
-  },
-  {
-    title: "Inventor",
-    icon: "inventor.png",
-  },
-  {
-    title: "Raspberry Pi",
-    icon: "rpi.png",
-  },
+  // {
+  //   title: "Fusion 360",
+  //   icon: "fusion360.png",
+  // },
+  // {
+  //   title: "Inventor",
+  //   icon: "inventor.png",
+  // },
+  // {
+  //   title: "Raspberry Pi",
+  //   icon: "rpi.png",
+  // },
   // {
   //   title: "",
   //   icon: "",
